@@ -6,8 +6,8 @@
 //Ao inves de fazer uma classe com varias responsabilidades como a classe abaixo:
 class Usuario {
 
-    public function setNome();
-    public function getNome();
+    public function setNome() {}
+    public function getNome() {}
 
     public function add() {}
     public function update() {}
@@ -17,8 +17,8 @@ class Usuario {
 //Divida responsabilidades entre as classes como as classes abaixo:
 class Usuario {
     
-    public function setNome();
-    public function getNome();
+    public function setNome() {}
+    public function getNome() {}
 }
 
 class UsuarioDb {

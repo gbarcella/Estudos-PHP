@@ -42,7 +42,7 @@ class FolhaDePagamento {
 
 interface Remuneravel {
 
-    public function remuneracao() {}
+    public function remuneracao();
 }
 
 class ContratoClt implements Remuneravel {
